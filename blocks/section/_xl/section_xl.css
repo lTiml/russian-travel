@@ -1,9 +1,0 @@
-.section_xl {
-	max-width: 1184px;
-}
-
-@media screen and (max-width: 1024px) {
-	.section {
-		max-width: 928px;
-	}
-}

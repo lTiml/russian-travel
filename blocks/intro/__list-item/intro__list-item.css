@@ -4,3 +4,7 @@
 	font-weight: 700;
 	margin-top: 3px;
 }
+
+.intro__list-item:first-child {
+	margin-top: 0;
+}
