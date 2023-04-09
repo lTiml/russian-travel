@@ -1,4 +1,4 @@
-.section {
+.section__width {
 	max-width: 984px;
 	margin: 0 auto;
 	margin-top: 92px;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-	.section {
+	.section__width {
 		margin: 88px 48px 0;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	.section {
+	.section__width {
 		margin: 88px 24px 0;
 	}
 }
 
 @media screen and (max-width: 320px) {
-	.section {
+	.section__width {
 		margin: 64px 16px 0;
 	}
 }

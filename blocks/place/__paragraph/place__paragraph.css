@@ -2,10 +2,22 @@
 	margin: 0;
 	font-size: 18px;
 	line-height: 163%;
+	margin-bottom: 25px;
+	flex-basis: 484px;
+}
+
+.place__text-paragraph:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.place__text-paragraph {
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 320px) {
 	.place__text-paragraph {
-		margin: 0 16px;
+		margin: 0 16px 25px;
 	}
 }

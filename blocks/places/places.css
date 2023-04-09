@@ -1,7 +1,3 @@
-/* .places {
-	display: none;
-} */
-
 @media screen and (max-width: 320px) {
 	.places {
 		margin: 0;
