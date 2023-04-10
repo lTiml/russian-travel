@@ -1,6 +1,12 @@
 .intro {
 	text-align: left;
-	margin-top: 92px;
+	margin: 92px 148px 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.intro {
+		margin: 92px 48px 0;
+	}
 }
 
 @media screen and (max-width: 768px) {

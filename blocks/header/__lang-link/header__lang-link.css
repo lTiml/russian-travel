@@ -6,10 +6,15 @@
 	color: #fff;
 	text-decoration: none;
 	align-items: center;
+	transition: opacity 0.3s ease;
 }
 
 .header__lang-link:last-child {
 	margin-right: 0;
+}
+
+.header__lang-link:hover {
+	opacity: 0.8;
 }
 
 @media screen and (max-width: 600px) {
